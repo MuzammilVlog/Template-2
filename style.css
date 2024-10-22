@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+}
+.navbar{
+    background-image: url(./img/2.avif);
+    background-position: center;
+    background-size: cover;
+}
+.img{
+    width: 100%;
+    height: 92.3vh;
+    background-image: url(./img/main-img.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    padding-top: 20rem;
+}
+.box1{
+    padding-top: 1rem;
+}
+@media screen and (max-width:767px){
+    #second{
+        width: 100%;
+    }
+    #image1{
+        width: 100%;
+    }
+    #option{
+        width: 100%;
+    }
+    #space{
+        width: 100%;
+    }
+    #boxes{
+        width: 100%;
+        height: 25vh;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #second{
+        width: 100%;
+    }
+    #image1{
+        width: 100%;
+        height:40vh;
+    }
+    #space{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px){
+    #second{
+        width: 100%;
+    }
+    #space{
+        width: 100%;
+    }
+}
+body{
+    background-image: url(./img/2.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#boxes{
+    width: 100%;
+    height: 8rem;
+}
